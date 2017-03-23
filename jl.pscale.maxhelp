@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 669.0, 497.0 ],
+		"rect" : [ 99.0, 100.0, 669.0, 497.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 107.0, 152.0, 227.0, 20.0 ],
-					"presentation_rect" : [ 107.0, 155.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "< try switching sigmoid reshaping on / off"
 				}
@@ -113,7 +112,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 25.0, 266.0, 194.0, 28.0 ],
+					"patching_rect" : [ 25.0, 267.0, 201.0, 22.0 ],
 					"size" : 256.0,
 					"style" : ""
 				}
@@ -128,7 +127,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 25.0, 208.0, 194.0, 28.0 ],
+					"patching_rect" : [ 25.0, 211.0, 201.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -154,9 +153,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.0, 297.0, 232.0, 20.0 ],
+					"patching_rect" : [ 291.0, 297.0, 248.0, 20.0 ],
 					"style" : "",
-					"text" : "factor < 1 gives an exponential-like shape"
+					"text" : "factor < 1 gives an exponential-shaped scale"
 				}
 
 			}
@@ -168,9 +167,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.0, 278.0, 222.0, 20.0 ],
+					"patching_rect" : [ 291.0, 278.0, 238.0, 20.0 ],
 					"style" : "",
-					"text" : "factor > 1 gives a logarithmic-like shape"
+					"text" : "factor > 1 gives a logarithmic-shaped scale"
 				}
 
 			}
@@ -246,7 +245,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 229.0, 266.0, 44.0, 22.0 ],
+					"patching_rect" : [ 229.0, 267.0, 44.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.9
@@ -264,7 +263,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 229.0, 214.0, 44.0, 22.0 ],
+					"patching_rect" : [ 229.0, 211.0, 44.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.9
@@ -347,9 +346,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 87.0, 414.0, 20.0 ],
+					"patching_rect" : [ 5.0, 87.0, 423.0, 20.0 ],
 					"style" : "",
-					"text" : "scale-like object with optional power transfer function - joseph larralde, 2017"
+					"text" : "scale-like object with optional sigmoid transfer function - joseph larralde, 2017"
 				}
 
 			}
@@ -407,7 +406,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"order" : 0,
 					"source" : [ "obj-15", 0 ]
 				}
@@ -427,7 +426,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
@@ -465,7 +464,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 5 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 

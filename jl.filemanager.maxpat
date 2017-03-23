@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 567.0, 111.0, 578.0, 598.0 ],
+		"rect" : [ 567.0, 111.0, 632.0, 652.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 181.5, 52.0, 72.0, 22.0 ],
+					"patching_rect" : [ 169.0, 52.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "route read"
 				}
@@ -60,7 +60,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 16.0, 31.0, 31.0 ],
+					"patching_rect" : [ 169.5, 16.0, 31.0, 31.0 ],
 					"style" : ""
 				}
 
@@ -74,7 +74,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 59.5, 92.0, 218.0, 22.0 ],
+					"patching_rect" : [ 42.5, 92.0, 218.0, 22.0 ],
 					"style" : "",
 					"text" : "r #1-filemanager"
 				}
@@ -119,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 389.5, 227.0, 24.0, 22.0 ],
+					"patching_rect" : [ 389.5, 186.0, 24.0, 22.0 ],
 					"style" : "",
 					"text" : "t b"
 				}
@@ -134,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "stop" ],
-					"patching_rect" : [ 389.5, 323.0, 77.0, 22.0 ],
+					"patching_rect" : [ 389.5, 346.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "t s s s stop"
 				}
@@ -149,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 389.5, 485.0, 118.0, 22.0 ],
+					"patching_rect" : [ 389.5, 487.0, 118.0, 22.0 ],
 					"style" : "",
 					"text" : "sprintf write \\\"%s\\\""
 				}
@@ -164,7 +164,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 389.5, 264.0, 98.0, 22.0 ],
+					"patching_rect" : [ 389.5, 263.0, 98.0, 22.0 ],
 					"style" : "",
 					"text" : "opendialog fold"
 				}
@@ -178,7 +178,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 119.5, 523.0, 31.0, 31.0 ],
+					"patching_rect" : [ 119.5, 592.0, 31.0, 31.0 ],
 					"style" : ""
 				}
 
@@ -221,7 +221,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.25, 461.0, 125.0, 22.0 ],
+					"patching_rect" : [ 293.25, 462.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "sprintf write \\\"%s\\\""
 				}
@@ -266,7 +266,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 294.25, 199.0, 24.0, 22.0 ],
+					"patching_rect" : [ 294.25, 186.0, 24.0, 22.0 ],
 					"style" : "",
 					"text" : "t b"
 				}
@@ -281,7 +281,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "reloaded", "bang" ],
-					"patching_rect" : [ 165.25, 199.0, 73.25, 22.0 ],
+					"patching_rect" : [ 165.25, 186.0, 73.25, 22.0 ],
 					"style" : "",
 					"text" : "t reloaded b"
 				}
@@ -311,7 +311,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "stop" ],
-					"patching_rect" : [ 119.5, 346.0, 74.0, 22.0 ],
+					"patching_rect" : [ 119.5, 346.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "t s s s stop"
 				}
@@ -341,7 +341,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 119.5, 199.0, 24.0, 22.0 ],
+					"patching_rect" : [ 119.5, 186.0, 24.0, 22.0 ],
 					"style" : "",
 					"text" : "t b"
 				}
@@ -356,7 +356,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 119.5, 310.0, 98.0, 22.0 ],
+					"patching_rect" : [ 119.5, 263.0, 98.0, 22.0 ],
 					"style" : "",
 					"text" : "opendialog fold"
 				}
@@ -370,7 +370,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.25, 53.0, 197.0, 20.0 ],
+					"patching_rect" : [ 251.75, 53.0, 197.0, 20.0 ],
 					"style" : "",
 					"text" : "< for automatic general remote"
 				}

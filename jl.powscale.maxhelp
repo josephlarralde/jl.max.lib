@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 669.0, 497.0 ],
+		"rect" : [ 575.0, 189.0, 669.0, 497.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,9 +44,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 275.0, 253.0, 232.0, 20.0 ],
+					"patching_rect" : [ 275.0, 253.0, 248.0, 20.0 ],
 					"style" : "",
-					"text" : "factor < 1 gives an exponential-like shape"
+					"text" : "factor < 1 gives an exponential-shaped scale"
 				}
 
 			}
@@ -58,9 +58,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 275.0, 234.0, 222.0, 20.0 ],
+					"patching_rect" : [ 275.0, 234.0, 238.0, 20.0 ],
 					"style" : "",
-					"text" : "factor > 1 gives a logarithmic-like shape"
+					"text" : "factor > 1 gives a logarithmic-shaped scale"
 				}
 
 			}
@@ -335,6 +335,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -344,6 +345,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 

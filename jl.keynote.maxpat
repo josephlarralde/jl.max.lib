@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -132,7 +132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 146.0, 202.0, 25.0, 22.0 ],
+					"patching_rect" : [ 123.0, 207.0, 25.0, 22.0 ],
 					"style" : "",
 					"text" : "t 0"
 				}
@@ -147,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 87.0, 202.0, 25.0, 22.0 ],
+					"patching_rect" : [ 64.0, 207.0, 25.0, 22.0 ],
 					"style" : "",
 					"text" : "t 1"
 				}
@@ -162,7 +162,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 146.0, 182.0, 48.0, 22.0 ],
+					"patching_rect" : [ 123.0, 182.0, 48.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 97"
 				}
@@ -177,7 +177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 87.0, 182.0, 48.0, 22.0 ],
+					"patching_rect" : [ 64.0, 182.0, 48.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 97"
 				}
@@ -193,8 +193,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
 					"patching_rect" : [ 123.0, 108.0, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 59.0, 89.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "keyup"
 				}
@@ -210,8 +208,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
 					"patching_rect" : [ 64.0, 108.0, 47.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 89.0, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "key"
 				}
