@@ -45,12 +45,12 @@
             {
                 "box": {
                     "id": "obj-38",
-                    "linecount": 10,
+                    "linecount": 11,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 466.0, 323.0, 469.0, 141.0 ],
-                    "text": "schedule and generate adsr style envelope messages for [line] and [line~] objects\n\n[jl.envgen] supports messages, attributes, and can be instantiated with a list that will be interpreted as attack, decay, release, rest, peak, sustain\n\n- when fed with a bang, all ramps (attack / decay / release) are played in sequence\n  and the sustain duration is 0\n- when fed with 1/0 values :\n    - 1 trigs the attack/decay ramps and waits at the sustain value\n    - 0 trigs the release ramp from the actual value (usually the sustain value)"
+                    "patching_rect": [ 466.0, 323.0, 469.0, 154.0 ],
+                    "text": "schedule and generate adsr style envelope messages for [line] and [line~] objects\n\n[jl.envgen] supports messages, attributes, and can be instantiated with a list that will be interpreted as attack, decay, release, rest, peak, sustain. inlets 2 to 7 correspond to the same messages.\n\n- when fed with a bang, all ramps (attack / decay / release) are played in sequence\n  and the sustain duration is 0\n- when fed with 1/0 values :\n    - 1 trigs the attack/decay ramps and waits at the sustain value\n    - 0 trigs the release ramp from the actual value (usually the sustain value)"
                 }
             },
             {
